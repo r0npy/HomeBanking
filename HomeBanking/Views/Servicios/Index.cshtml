@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+
+<script>
+    let _ROOT_RANDOM_VALUE = 0;
+
+    function ImprimirRandom(valor) {
+        console.log(valor);
+    }
+</script>
+
+<script src="~/web-components/vue-section-one.min.js"></script>
+<script src="~/web-components/vue-section-user.min.js"></script>
+
+<h1>Lista de Servicios</h1>
+
+<div class="container-fluid">
+
+    <div class="row my-2">
+        <div class="col col-md-12 col-lg-4 col-xl-3">
+            <vue-section-one></vue-section-one>
+        </div>
+        <div class="col col-md-12 col-lg-8 col-xl-9 my-xs-3 my-sm-3 my-md-3 my-lg-0">
+            <vue-section-user></vue-section-user>
+        </div>
+        <div class="col-12">
+            <custom-list></custom-list>
+            <script src="./web-components/custom-list/runtime.js" defer></script>
+            <script src="./web-components/custom-list/polyfills.js" defer></script>
+            <script src="./web-components/custom-list/main.js" defer></script>
+        </div>
+    </div>
+
+</div>

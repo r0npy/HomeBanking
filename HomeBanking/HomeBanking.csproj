@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\web-components\angular-section\3rdpartylicenses.txt" />
+    <None Include="wwwroot\web-components\angular-section\favicon.ico" />
+    <None Include="wwwroot\web-components\angular-section\index.html" />
+    <None Include="wwwroot\web-components\angular-section\main.js" />
+    <None Include="wwwroot\web-components\angular-section\polyfills.js" />
+    <None Include="wwwroot\web-components\angular-section\runtime.js" />
+    <None Include="wwwroot\web-components\angular-section\styles.css" />
+    <None Include="wwwroot\web-components\custom-list\3rdpartylicenses.txt" />
+    <None Include="wwwroot\web-components\custom-list\favicon.ico" />
+    <None Include="wwwroot\web-components\custom-list\index.html" />
+    <None Include="wwwroot\web-components\custom-list\main.js" />
+    <None Include="wwwroot\web-components\custom-list\polyfills.js" />
+    <None Include="wwwroot\web-components\custom-list\runtime.js" />
+    <None Include="wwwroot\web-components\custom-list\styles.css" />
+    <None Include="wwwroot\web-components\img\logo.82b9c7a5.png" />
+    <None Include="wwwroot\web-components\vue-section-one.min.js" />
+    <None Include="wwwroot\web-components\vue-section-one.min.js.map" />
+    <None Include="wwwroot\web-components\vue-section-user.min.js" />
+    <None Include="wwwroot\web-components\vue-section-user.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>
